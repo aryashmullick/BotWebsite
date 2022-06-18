@@ -16,7 +16,7 @@ Packages used:<br>
 Extra dependancies which I installed from GitHub:<br>
 [Termynal](https://github.com/ines/termynal)<br>
 
-**Hosted on GitHub Pages**
+**Hosted on [VERCEL](https://vercel.com/)**
 <br><br>
 DISCLAIMER:
 ```MIT License
