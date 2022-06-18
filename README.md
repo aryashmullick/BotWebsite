@@ -6,7 +6,7 @@ React is a free and open-source front-end JavaScript library for building user i
 
 Packages used:<br>
 `npm install ...`<br>
-> `React` (create-react-app)
+> `React` (create-react-app) <br>
 > [`react-scroll-motion`](https://github.com/1000ship/react-scroll-motion) <br>
 > `bootstrap` <br>
 > `bootstrap-icons` 
