@@ -40,7 +40,7 @@ function Footer() {
         <i className="bi bi-person-lines-fill m-2"></i>
       </a>
       <a
-        href="https://github.com/AR9157/BotWebsite"
+        href="https://github.com/AR9157/BotWebsite/tree/main"
         style={{ color: "white" }}
         target={"_blank"}
         rel="noreferrer"
