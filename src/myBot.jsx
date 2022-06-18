@@ -27,7 +27,7 @@ class BotsComponent extends Component {
             <br></br>
             <span className="d-flex justify-content-center">
               AR Bot is a multipurpose bot which includes Moderation, Fun, and
-              information commands. New commands are added every week!!
+              information commands. New commands are added every week!! (Kinda)
             </span>
             <br></br>
             <a
