@@ -8,9 +8,12 @@ Packages used:<br>
 `npm install ...`<br>
 > `React` (create-react-app) <br>
 > [`react-scroll-motion`](https://github.com/1000ship/react-scroll-motion) <br>
-> `bootstrap` <br>
-> `bootstrap-icons` 
 
+Bootstrap and Bootstrap Icons using CDN
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+```
 
 
 Extra dependancies which I installed from GitHub:<br>
@@ -19,7 +22,8 @@ Extra dependancies which I installed from GitHub:<br>
 **Hosted on [VERCEL](https://vercel.com/)**
 <br><br>
 DISCLAIMER:
-```MIT License
+```
+MIT License
 
 Copyright (c) 2022 AR 9157
 
@@ -39,4 +43,5 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.```
+SOFTWARE.
+```
