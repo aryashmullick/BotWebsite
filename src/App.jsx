@@ -47,7 +47,7 @@ function App() {
       <ScrollPage>
         <Animator animation={batch(FadeIn(), MoveOut(0, -100))}>
           
-          <div id="iUseDisnake" className="d-flex justify-content-center">
+          <div id="iUseDisnake" style={{textAlign:"center"}}>
             I am fluent in python and thus I use&#160;
             <a
               href="https://github.com/disnakedev/disnake"
