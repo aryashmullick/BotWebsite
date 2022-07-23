@@ -10,9 +10,10 @@ import {
   StickyIn,
   ZoomIn,
 } from "react-scroll-motion";
-import BotsComponent from "./myBot";
-import WhatInMyBot from "./whatInBot";
-import ContactComponent from "./contact";
+import BotsComponent from "./mainComponents/myBot";
+import WhatInMyBot from "./mainComponents/whatInBot";
+import ContactComponent from "./mainComponents/contact";
+import MenuComponent from "./mainComponents/menu";
 
 const ZoomInScrollOut = batch(
   StickyIn(),
@@ -23,6 +24,7 @@ const ZoomInScrollOut = batch(
 
 function App() {
   return (
+    <div>
     <ScrollContainer>
       <ScrollPage>
         <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
@@ -100,6 +102,8 @@ function App() {
       <WhatInMyBot />
       <ContactComponent />
     </ScrollContainer>
+    <MenuComponent />
+    </div>
   );
 }
 

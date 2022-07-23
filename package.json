@@ -1,9 +1,13 @@
 {
   "name": "botwebsite",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "private": true,
   "homepage": "https://bot.ar9157.me/",
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -12,6 +16,7 @@
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-scroll-motion": "^0.3.0",
     "save-dev": "^0.0.1-security",

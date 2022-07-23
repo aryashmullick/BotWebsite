@@ -7,6 +7,7 @@ import {
     MoveIn,
     StickyIn,
   } from "react-scroll-motion";
+import {Link} from "@mui/material"
 
 class ContactComponent extends Component {
     render() { 
@@ -14,8 +15,7 @@ class ContactComponent extends Component {
             <ScrollPage>
                 <Animator animation={batch(StickyIn(),FadeIn(),MoveIn(1000,0))}>
                     <div style={{textAlign:"center"}}>
-                        <h4 style={{color:"cyan"}}>WELL, What are you waiting for mate?</h4>
-                        <a id="contactTag" href="https://contact.ar9157.me" target={"_blank"} style={{color:"yellowgreen",textDecoration:"none"}} rel={"noreferrer"}><u>CONTACT ME NOWWW!!</u></a >
+                        <Link href={"/pricing"} sx={{fontSize:"40px"}}>Check out the pricing!</Link>
                     </div>
                 </Animator>
             </ScrollPage>
