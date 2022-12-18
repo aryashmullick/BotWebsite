@@ -1,3 +1,5 @@
+## Note: This is now an archived repository as i do not intend to use this website anymore. (maybe new one coming soon)
+
 <h1>Welcome!</h1>
 This is my bot website<br><br>
 <h3>What is ReactJS?</h3>
